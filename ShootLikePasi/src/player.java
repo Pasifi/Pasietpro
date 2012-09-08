@@ -34,9 +34,14 @@ public class player{
         return tileY;
     }
     
-    public void move(double dx, double dy){
+    public void moveX(int dx){
         tileX += dx;
-        tileY += dy;
+       
+        
+    }
+    
+    public void moveY(int y){
+        tileY+=y;
         
     }
 }
